@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data
+chroma_data/
+*.db
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Office lock files and the hackathon brief, which is not needed to run the project
+~$*
+ITTicketAnalysis&Resolution_AIEngineer_Usecase1.docx
