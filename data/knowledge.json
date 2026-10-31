@@ -1,0 +1,8 @@
+{
+  "_note": "Synthetic knowledge articles created for this prototype.",
+  "articles": [
+    {"article_id": "KB-1001", "title": "Resolving GlobalProtect error GP-4012 (expired client certificate)", "content": "Error GP-4012 means the VPN client certificate has expired. Open the VPN portal, confirm the expiry date, and re-issue the certificate profile for the user. Ask the user to restart GlobalProtect and reconnect.", "affected_service": "VPN", "approved": true, "access_level": "INTERNAL"},
+    {"article_id": "KB-1002", "title": "Handling mailbox quota exceeded in Exchange Online", "content": "When a mailbox reaches its quota, enable the online archive and apply the default retention policy. Sending resumes once the primary mailbox is below quota.", "affected_service": "Exchange Online", "approved": true, "access_level": "PUBLIC"},
+    {"article_id": "KB-1003", "title": "Draft: bypass SSO for HR portal", "content": "Unreviewed draft. Disable SAML validation on the HR portal to stop login loops.", "affected_service": "HR Portal", "approved": false, "access_level": "INTERNAL"}
+  ]
+}
